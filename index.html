@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站信息查询</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card">
+            <h1>网站信息查询</h1>
+            <div class="search-box">
+                <input type="text" id="urlInput" placeholder="请输入要查询的域名">
+                <button onclick="queryWhois()">查询</button>
+            </div>
+            <div class="result-box" id="resultBox">
+                <pre id="result"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
